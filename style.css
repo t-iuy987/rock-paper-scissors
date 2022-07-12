@@ -1,0 +1,97 @@
+html{
+    background-color: #D0C9C0;
+    
+}
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+#game-title{
+    border-bottom: 2px solid black;
+
+}
+#game-title p{
+    font-weight:900;
+    text-align: center;
+    font-size: 15px;
+}
+#start-btn{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+    
+}
+#start-btn button{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+#buttons div{
+    display: flex;
+    flex-direction: column;
+}
+#buttons button{
+    border: 2px solid black;
+    border-radius: 4px ;
+    margin: 5px;
+    padding: 7px;
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+#buttons span{
+    margin-top: 5px;
+    
+}
+#rock-btn #paper-btn #scissors-btn{
+    width: 5em;
+    height: 5em;
+    
+}
+
+
+
+img{
+    width: 80px;
+    height: 80px;
+}
+#score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#score div{
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 3px 5px ;
+    width: 150px;
+
+}
+#score div p{
+    text-align: center;
+}
+#footer{
+bottom: 0;
+position: absolute;   
+    background-color: rgb(152, 175, 175);
+    
+    height: 20px;
+
+    margin: 10px;
+    padding: 5px;
+    
+}
